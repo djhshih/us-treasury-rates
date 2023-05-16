@@ -28,6 +28,6 @@ qdraw(
 		xlab("time") + ylab("US treasury yield")
 	,
 	width = 8, height = 10,
-	file = "us-treasury-yield_2011_debt-ceiling.pdf"
+	file = "us-treasury-yield_2011_debt-ceiling.png"
 )
 
