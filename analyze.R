@@ -3,7 +3,8 @@ library(ggplot2)
 library(lubridate)
 library(tidyr)
 
-xs <- qread("data", pattern="daily-treasury-rates_.*.csv");
+xs <- qread("data", pattern="daily-treasury-rates_202.*.csv");
+#xs <- qread("data", pattern="daily-treasury-rates_.*.csv");
 
 x <- do.call(rbind, xs);
 colnames(x) <- tolower(colnames(x));
